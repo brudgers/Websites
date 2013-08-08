@@ -1,0 +1,199 @@
+﻿body
+{
+    color: #4A2200;
+    line-height: 1.5em;
+    background-image: url(images/orangeblackbackground.gif);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+h1,h2,h3
+{
+    color: #00162D;
+}
+
+h1,p
+{
+    padding-left: 10px;
+
+}
+
+h2
+{
+margin-top: 30px;
+}
+
+ul
+{
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+a:link
+{
+   color: #4A2200; 
+}
+
+a:visited
+{
+   color: #4A2200;
+}
+
+a:hover
+{
+   color: #4A2200;
+}
+
+
+#content
+{
+    margin-top: 0px;
+    margin-left: 80px;
+    width: 960px;
+    background-color: #FFFFFF;
+
+}
+
+#header
+{
+    background-color: white;
+    background-repeat: repeat-x;
+    top: 0px;
+    height: 80px;
+    position: relative;
+    width: 960px;
+    border-style: dotted;
+    border-width: 0px 1px 0px 1px;
+    border-color: #00162D;
+}
+
+#logo{
+    height: 55px;
+    padding-top: 5px;
+    line-height: 1.1em;
+    }
+
+#footer
+{
+    width: inherit;
+    border-style: dotted;
+    border-width: 1px 1px 1px 1px;
+    border-color: #00162D;
+    color: #00162D;
+
+}
+
+#navigation
+{
+    color: #00162D;
+    width: 140px;
+    border-color: #00162D;
+
+    margin: 0px;
+}
+
+#navigation li
+{
+    border-style: dotted;
+    border-width: 0px 1px 1px 1px;
+    border-color: #00162D;
+    margin-right: 20px;
+    list-style-type: none;
+    letter-spacing: .07em;
+    padding-left: 10px;
+    font-size: small;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+#center
+{
+    width: 480px;
+    padding: 0px 30px 0px 30px;
+    margin: 0px;
+    float: right;
+}
+
+#right
+{
+    width: 250px;
+    float: right;
+    border-style: dotted;
+    border-width: 0px 1px 0px 1px;
+    border-color: #00162D;
+    padding: 0px 20px 0px 10px;
+}
+
+#sitemappath1
+{
+    color: White;
+}
+
+.productlist
+{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border-spacing: 10px;
+}
+
+ 
+
+.greycolumn
+{
+    width: 679px;
+    background: #00162D;
+    color: White;
+    height: 20px;
+}
+
+.greycolumn a:link
+{
+    color: White;
+}
+
+.greycolumn a:vistited
+{
+    color: White;
+}
+
+
+.orangecolumn
+{
+    width: 280px;
+    background: #ff7300;
+    float: right;
+    height: 20px;
+}
+
+.clearboth
+{
+    clear: both;
+}
+
+.bluetext
+{
+ color: #00162D;   
+}
+
+.orangetext
+{
+    color: #4A2200;
+}
+
+.purchase
+{
+    border: 1px groove #00162D;
+    padding: 5px;
+    font-size: small;
+    color: #00162D;
+    font-weight: bold;
+    background-color: #ff7300;
+    margin-right: 10px;
+
+}
+
+.purchase a:link
+{
+    text-decoration: none;
+}

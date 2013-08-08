@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+
+/// <summary>
+/// Summary description for Class1
+/// </summary>
+public class Class1
+{
+    public decimal FU, Exit, Dilution, OutsideInvestment, LiquidityPreference, Equity;
+	
+    public Class1()
+	{
+     }
+
+    public string CalcFU(decimal fu, decimal exit, decimal equity)
+    {
+        decimal preferenceLoss = ((OutsideInvestment * LiquidityPreference) * 100 * Dilution);
+
+        if (fu == 0)
+        {
+            if (exit * equity == 0)
+            {
+                return fu.ToString(); // needs work
+            }
+            else  //calculate fu
+            {
+                return (equity * (exit - preferenceLoss)).ToString(); 
+            }
+        }
+
+        if (exit == 0) //return exit
+        {
+            if (equity == 0)
+            {
+                return exit.ToString(); // needs work
+            }
+            else //calculate exit
+            {
+                return (fu / equity + preferenceLoss).ToString(); 
+            }
+        }
+
+        else // return equity
+        {
+            return (fu/(exit-preferenceLoss)).ToString(); 
+        };
+
+
+    }
+
+
+}

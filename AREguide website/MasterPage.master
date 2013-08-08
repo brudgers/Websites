@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<%@ Register TagPrefix="brudgers" TagName="header" Src="~/WUC header.ascx" %>
+<%@ Register TagPrefix="brudgers" TagName="footer" Src="~/WUC footer.ascx" %>
+<%@ Register TagPrefix="brudgers" TagName="navigation" Src="~/WUC navigation.ascx" %>
+<%@ Register TagPrefix="brudgers" TagName="rightside" Src="~/WUC Right Side.ascx" %>
+
+
+
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title></title>
+      <link type="text/css" href="StyleSheet.css" rel="Stylesheet" />
+     </style>
+ 
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" >
+ 
+ 
+
+            <div id="content"> 
+                <div id="header">
+                    <brudgers:header id="header1" runat="server" />
+                </div> 
+  
+  
+                <div id="right">
+                    <brudgers:rightside ID="Rightside1" runat="server" />      
+                </div>
+                      
+                <div id="center">
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"> </asp:ContentPlaceHolder>
+                    </div>
+                <div>
+
+
+                <div id="navigation">
+                    <brudgers:navigation id="navigation1" runat="server" />
+                </div> 
+                </div>
+                <div class="clearboth">
+                    <brudgers:footer id="footer1" runat="server" />
+                </div>
+
+            </div> 
+
+
+    </form>
+</body>
+</html>

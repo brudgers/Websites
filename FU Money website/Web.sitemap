@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home"  description="areguide.com">
+        <siteMapNode url="SG site zoning.aspx" title="Site Zoning Guide"  description="Site Zoning Study Guide" />
+        <siteMapNode url="PV SZ.aspx" title="Site Zoning Practice Vignettes"  description="Site Zoning Practice Vignettes" />
+        <siteMapNode url="SG Structural layout.aspx" title="Structural Layout Study Guide"  description="Structural Layout Study Guide" />
+        <siteMapNode url="SG General Test Directions.aspx" title="General Test Directions Guide"  description="General Test Directions Guide" />
+        <siteMapNode url="" title=""  description="" />
+        <siteMapNode url="" title=""  description="" />
+        <siteMapNode url="" title=""  description="" />
+    </siteMapNode>
+</siteMap>
